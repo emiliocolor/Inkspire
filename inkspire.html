@@ -1,0 +1,2131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="EmilioColor Inkspire - Distribuidora Mayorista de Papelería en CDMX. Los mejores productos para tu negocio con precios exclusivos.">
+    <meta name="keywords" content="papelería mayorista CDMX, distribuidora papelería Ciudad de México, EmilioColor Inkspire, venta por mayor CDMX, papelería menudeo">
+    <meta name="author" content="EmilioColor®">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="EmilioColor®">
+    <meta property="og:title" content="EmilioColor Inkspire - Distribuidora Mayorista de Papelería en CDMX">
+    <meta property="og:description" content="Potencia tu negocio con los mejores productos de papelería al por mayor en la Ciudad de México. Precios exclusivos y calidad garantizada.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://emiliocolor.com/inkspire">
+    <meta property="og:image" content="https://emiliocolor.com/assets/img/og-image-inkspire.png">
+    <meta property="og:image:secure_url" content="https://emiliocolor.com/assets/img/og-image-inkspire.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- WhatsApp Preview -->
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EmilioColor Inkspire - Distribuidora Mayorista de Papelería en CDMX">
+    <meta name="twitter:description" content="Potencia tu negocio con los mejores productos de papelería al por mayor en la Ciudad de México. Precios exclusivos y calidad garantizada.">
+    <meta name="twitter:image" content="https://emiliocolor.com/assets/img/og-image-inkspire.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+    <title>EmilioColor Inkspire - Distribuidora Mayorista y Minorista de Papelería en CDMX</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://emiliocolor.com/inkspire">
+
+    <style>
+:root {
+    --primary-blue: #dc2626;
+    --primary-blue-light: #ef4444;
+    --primary-blue-dark: #991b1b;
+
+    --primary-gray: #4d4d4d;
+    --primary-gray-light: #a3a3a3;
+    --primary-gray-lighter: #7c7c7c;
+    --primary-gray-dark: #464646;
+    --primary-gray-darker: #303030;
+
+    --secondary-gray: #808080;
+    --accent-gray: #696969;
+
+    --light-gray: #f8fafc;
+    --medium-gray: #e2e8f0;
+    --dark-gray: #1e293b;
+
+    --text-dark: #2c333d;
+    --text-light: #f1f5f9;
+
+    --header-bg: linear-gradient(135deg, #f65959 0%, #e30000 50%, #e7a9a9 100%);
+
+    --header-hover: rgba(255, 255, 255, 0.1);
+
+    --button-gradient: linear-gradient(
+        135deg,
+        var(--primary-gray) 0%,
+        var(--primary-gray-light) 100%
+    );
+
+    --button-hover-gradient: linear-gradient(
+        135deg,
+        var(--primary-gray-dark) 0%,
+        var(--primary-gray) 100%
+    );
+
+    --card-gradient: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(240, 240, 240, 0.95) 100%
+    );
+
+    --success-color: #6b7280;
+    --warning-color: #9ca3af;
+
+    --danger-color: #ef4444;
+    --danger-hover: #dc2626;
+
+    --footer-bg: linear-gradient(
+        135deg,
+        #010101 0%,
+        #5c5c5c 50%,
+        #000000 100%
+    );
+
+    --whatsapp-gradient: linear-gradient(
+        135deg,
+        #6b7280 0%,
+        #374151 100%
+    );
+
+    --whatsapp-hover: linear-gradient(
+        135deg,
+        #374151 0%,
+        #9ca3af 100%
+    );
+
+    --inkspire-red: #e94560;
+    --inkspire-dark: #1a1a2e;
+    --whatsapp-green: #25D366;
+}
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light-gray);
+            color: var(--text-dark);
+            padding: 0;
+            margin: 0;
+            line-height: 1.6;
+            transition: all 0.3s ease;
+            padding-top: 80px;
+            scroll-behavior: smooth;
+        }
+
+        .main-header {
+            background: var(--header-bg);
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .header-logo img {
+            height: 80px;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+
+        .header-nav-link {
+            padding: 10px 15px;
+            color: var(--text-light);
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            font-weight: 500;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .header-nav-link:hover,
+        .header-nav-link.active {
+            transform: translateY(-2px);
+            text-decoration: underline;
+        }
+
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0;
+            min-height: calc(100vh - 400px);
+        }
+
+        /* Hero Section Inkspire - Texto izquierda, contenedores derecha estilo tabla sin descripciones */
+        .inkspire-hero {
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+            padding: 5rem 2rem;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('congtamphoto-caves-7028437.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-flex-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 3rem;
+        }
+
+        .hero-text-content {
+            flex: 1.2;
+            min-width: 280px;
+        }
+
+        .hero-cards-container {
+            flex: 1;
+            min-width: 280px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .hero-info-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            padding: 0.9rem 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .hero-info-card:hover {
+            transform: translateX(8px);
+            background: white;
+        }
+
+        .card-info-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .card-info-title i {
+            font-size: 1.8rem;
+            color: var(--inkspire-red);
+        }
+
+        .hero-info-card h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 0;
+            color: var(--inkspire-dark);
+        }
+
+        .card-cotizar-btn {
+            background: var(--inkspire-red);
+            color: white;
+            border: none;
+            padding: 0.5rem 1.2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Poppins', sans-serif;
+            white-space: nowrap;
+        }
+
+        .card-cotizar-btn:hover {
+            background: #c23152;
+            transform: translateY(-2px);
+        }
+
+        /* Botón general debajo de los tres contenedores */
+        .btn-cotizar-general {
+            background: var(--inkspire-dark);
+            margin-top: 0.5rem;
+            width: 100%;
+            justify-content: center;
+            padding: 0.7rem;
+            font-size: 0.9rem;
+        }
+
+        .logo-espacio {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .logo-espacio-img {
+            height: 60px;
+            width: auto;
+        }
+
+        .inkspire-hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .inkspire-hero-content p {
+            font-size: 1.15rem;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 2rem;
+        }
+
+        .inkspire-hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .btn-inkspire-catalogo {
+            background: var(--inkspire-dark);
+            color: white !important;
+            padding: 0.9rem 2.2rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border-radius: 50px;
+        }
+
+        .btn-inkspire-catalogo:hover {
+            background: var(--inkspire-red);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .btn-inkspire-contacto {
+            background: var(--inkspire-red);
+            color: white !important;
+            padding: 0.9rem 2.2rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(233, 69, 96, 0.3);
+            border-radius: 50px;
+        }
+
+        .btn-inkspire-contacto:hover {
+            background: linear-gradient(135deg, #ff6b6b 0%, var(--inkspire-red) 100%);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(233, 69, 96, 0.5);
+        }
+
+        /* Barra de búsqueda */
+        .search-bar-container {
+            max-width: 600px;
+            margin: -30px auto 30px auto;
+            position: relative;
+            z-index: 10;
+            padding: 0 20px;
+        }
+        .search-input-group {
+            background: white;
+            border-radius: 60px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            padding: 5px 5px 5px 20px;
+            border: 1px solid #e0e0e0;
+        }
+        .search-input-group i {
+            color: var(--inkspire-red);
+            font-size: 1.2rem;
+        }
+        .search-input-group input {
+            flex: 1;
+            border: none;
+            padding: 14px 10px;
+            font-size: 1rem;
+            outline: none;
+            font-family: 'Poppins', sans-serif;
+            background: transparent;
+        }
+        .search-clear-btn {
+            background: none;
+            border: none;
+            color: #999;
+            cursor: pointer;
+            padding: 8px;
+            display: none;
+        }
+        .search-clear-btn:hover {
+            color: var(--inkspire-red);
+        }
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            color: #666;
+        }
+
+        .inkspire-productos {
+            padding: 5rem 20px;
+        }
+
+        .inkspire-section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .inkspire-section-title h2 {
+            font-size: 2.5rem;
+            color: var(--inkspire-dark);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .inkspire-section-title p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .inkspire-productos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .inkspire-producto-card {
+            background: white;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            cursor: default;
+            position: relative;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mayoreo-card {
+            border: 1px solid var(--inkspire-red);
+        }
+
+        .menudeo-card {
+            border: 1px solid var(--whatsapp-green);
+        }
+
+        .inkspire-producto-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .inkspire-producto-img {
+            height: 220px;
+            background: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+
+        .producto-imagen-principal {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f1f5f9;
+        }
+        .carousel-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.6);
+            color: white;
+            border: none;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            transition: all 0.2s;
+            z-index: 10;
+        }
+        .carousel-btn:hover {
+            background: var(--inkspire-red);
+        }
+        .carousel-btn-prev {
+            left: 8px;
+        }
+        .carousel-btn-next {
+            right: 8px;
+        }
+        .carousel-dots {
+            position: absolute;
+            bottom: 8px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            z-index: 10;
+        }
+        .carousel-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgb(180, 180, 180);
+            cursor: pointer;
+        }
+        .carousel-dot.active {
+            background: var(--inkspire-red);
+            width: 12px;
+            border-radius: 4px;
+        }
+
+        .inkspire-producto-info {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inkspire-producto-info h3 {
+            font-size: 1.3rem;
+            color: var(--inkspire-dark);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .inkspire-producto-info p {
+            color: #666;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            flex-grow: 1;
+        }
+
+        .producto-precio {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--whatsapp-green);
+            margin: 0.5rem 0;
+        }
+
+        .cantidad-selector {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 12px 0;
+            background: #f1f5f9;
+            padding: 8px 12px;
+            border-radius: 60px;
+        }
+        .cantidad-selector label {
+            font-weight: 600;
+            color: var(--inkspire-dark);
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        .cantidad-control {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .cantidad-btn {
+            background: white;
+            border: 1px solid #cbd5e1;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 1.2rem;
+            cursor: pointer;
+            color: var(--inkspire-dark);
+        }
+        .cantidad-btn:hover {
+            background: var(--inkspire-red);
+            color: white;
+            border-color: var(--inkspire-red);
+        }
+        .cantidad-input {
+            width: 50px;
+            text-align: center;
+            border: 1px solid #cbd5e1;
+            padding: 5px;
+            border-radius: 30px;
+            font-weight: 600;
+        }
+
+        .inkspire-producto-tag {
+            display: inline-block;
+            background: var(--inkspire-red);
+            color: white;
+            padding: 0.3rem 1rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            align-self: flex-start;
+            margin-bottom: 0.5rem;
+        }
+
+        .menudeo-tag {
+            background: var(--whatsapp-green);
+        }
+
+        /* Botones unificados del main */
+        .btn-cotizar-main {
+            background: linear-gradient(135deg, var(--inkspire-red) 0%, #c23152 100%);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            margin-top: 0.5rem;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+        }
+
+        .btn-cotizar-main:hover {
+            background: linear-gradient(135deg, #ff6b6b 0%, var(--inkspire-red) 100%);
+            transform: translateY(-2px);
+            color: white;
+        }
+
+        .btn-comprar-menudeo {
+            background: linear-gradient(135deg, #6b7280 0%, #374151 100%);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            margin-top: 0.5rem;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+        }
+
+        .btn-comprar-menudeo:hover {
+            background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+            transform: translateY(-2px);
+            color: white;
+        }
+
+        .curso-selector {
+            margin: 12px 0;
+            background: #fff5f5;
+            padding: 10px;
+            border-radius: 30px;
+        }
+        .curso-selector label {
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .curso-selector select {
+            width: 100%;
+            padding: 8px 10px;
+            border-radius: 40px;
+            border: 1px solid #ddd;
+            font-family: 'Poppins', sans-serif;
+            background: white;
+        }
+
+        .inkspire-beneficios {
+            background: #f8f9fa;
+            padding: 5rem 20px;
+        }
+
+        .inkspire-beneficios-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .inkspire-beneficio-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            border: 1px solid #e0e0e0;
+        }
+        
+        .inkspire-beneficio-card i {
+            font-size: 2.5rem;
+            color: var(--inkspire-red);
+            margin-bottom: 1rem;
+        }
+        
+        .inkspire-beneficio-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .inkspire-beneficio-card p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* Sección de contacto */
+        .contacto-section {
+            padding: 5rem 20px;
+            background: white;
+        }
+        .contacto-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        .contacto-info {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 40px;
+        }
+        .contacto-info h3 {
+            color: var(--inkspire-dark);
+            margin-bottom: 1.5rem;
+        }
+        .contacto-info p {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .contacto-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 40px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
+            border: 1px solid #e0e0e0;
+        }
+        .form-contacto-group {
+            margin-bottom: 1.2rem;
+        }
+        .form-contacto-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .form-contacto-group input, .form-contacto-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .btn-contacto-submit {
+            background: linear-gradient(135deg, var(--inkspire-red) 0%, #c23152 100%);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+        }
+        .btn-contacto-submit:hover {
+            background: linear-gradient(135deg, #ff6b6b 0%, var(--inkspire-red) 100%);
+            transform: translateY(-2px);
+        }
+
+        .inkspire-ubicacion {
+            padding: 5rem 20px;
+            background: #fef9f9;
+        }
+        .ubicacion-card {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 40px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+        .ubicacion-card i {
+            font-size: 2rem;
+            color: var(--inkspire-red);
+            margin-bottom: 1rem;
+        }
+        .ubicacion-card .fa-truck-fast {
+            font-size: 2.2rem;
+        }
+        .ubicacion-card p i {
+            font-size: 1.1rem;
+            margin-right: 5px;
+        }
+        .ubicacion-card .cobertura-notice {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .ubicacion-card .cobertura-notice i {
+            font-size: 1.2rem;
+            margin-right: 8px;
+            color: #856404;
+        }
+        .ubicacion-card .cobertura-notice p {
+            margin: 0;
+            color: #856404;
+            font-weight: 500;
+        }
+
+        .legal-notice {
+            background: white;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin: 0 20px 40px 20px;
+        }
+        .legal-notice h3 {
+            color: var(--inkspire-dark);
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .legal-notice-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .legal-notice-buttons a {
+            background: var(--inkspire-dark);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border-radius: 50px;
+        }
+        .legal-notice-buttons a:last-child {
+            background: var(--primary-gray);
+        }
+
+        .inkspire-modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.6);
+            backdrop-filter: blur(5px);
+        }
+        .inkspire-modal-content {
+            background-color: white;
+            margin: 3% auto;
+            padding: 2.5rem;
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+            border: 1px solid #e0e0e0;
+            max-height: 90vh;
+            overflow-y: auto;
+            border-radius: 30px;
+        }
+        .inkspire-modal-close {
+            position: absolute;
+            right: 1.5rem;
+            top: 1rem;
+            font-size: 2rem;
+            cursor: pointer;
+            color: #999;
+        }
+        .inkspire-modal-close:hover { color: var(--inkspire-red); }
+        .inkspire-form-group {
+            margin-bottom: 1.5rem;
+        }
+        .inkspire-form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #555;
+            font-weight: 500;
+        }
+        .inkspire-form-group input, .inkspire-form-group textarea, .inkspire-form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #e0e0e0;
+            font-size: 0.95rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        .inkspire-form-group input:focus, .inkspire-form-group textarea:focus {
+            outline: none;
+            border-color: var(--inkspire-red);
+        }
+        .btn-inkspire-submit {
+            background: var(--inkspire-red);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 50px;
+        }
+        .btn-inkspire-submit:hover {
+            background: linear-gradient(135deg, #ff6b6b 0%, var(--inkspire-red) 100%);
+        }
+        .inkspire-toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: #0f8f44;
+            color: white;
+            padding: 1rem 2rem;
+            display: none;
+            z-index: 3000;
+        }
+        
+        .main-footer {
+            background: var(--footer-bg);
+            color: white;
+            padding: 40px 0 20px;
+            margin-top: 0;
+        }
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .footer-logo img {
+            height: 80px;
+            margin-bottom: 15px;
+        }
+        .footer-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .footer-nav h4, .footer-contact h4, .footer-social h4 {
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        .footer-nav-link {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .footer-nav-link:hover {
+            color: white;
+            transform: translateX(5px);
+        }
+        .footer-contact p {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .footer-social-links {
+            display: flex;
+            gap: 15px;
+        }
+        .social-link {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .social-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 992px) {
+            .header-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .header-nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .contacto-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero-flex-container {
+                flex-direction: column;
+            }
+            .hero-text-content {
+                text-align: center;
+            }
+            .logo-espacio {
+                justify-content: center;
+            }
+            .inkspire-hero-buttons {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body { padding-top: 120px; }
+            .header-nav-link span { display: none; }
+            .header-nav-link i { font-size: 1.2rem; }
+            .inkspire-hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            .hero-info-card {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .card-cotizar-btn {
+                white-space: normal;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="https://emiliocolor.com" target="_blank" class="header-logo">
+                <img src="logo_transparente.png" alt="EmilioColor Logo">
+            </a>
+            <nav class="header-nav">
+                <a href="#productosMayoreo" class="header-nav-link"><i class="fas fa-boxes"></i><span>Productos Mayoreo</span></a>
+                <a href="#productosMenudeo" class="header-nav-link"><i class="fas fa-shopping-cart"></i><span>Productos Menudeo</span></a>
+                <a href="#contactoSection" class="header-nav-link"><i class="fas fa-envelope"></i><span>Contacto</span></a>
+                <a href="#ubicacionSection" class="header-nav-link"><i class="fas fa-map-marker-alt"></i><span>¿Dónde nos ubicamos?</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="inkspire-hero">
+            <div class="hero-flex-container">
+                <div class="hero-text-content">
+                    <div class="logo-espacio">
+                        <img src="logo_inkspire.png" alt="EmilioColor Logo" class="logo-espacio-img">
+                    </div>
+                   
+                   <p style="font-size: 1.3rem; font-weight: 500; color: white;">
+  Distribuidora Mayorista y Minorista de Papelería en CDMX
+</p>
+
+<p style="color: white;">
+  Potencia tu negocio con los mejores productos de papelería al por mayor en la Ciudad de México. 
+  Precios exclusivos para compradores mayoristas con la calidad que tu negocio merece.
+</p>
+<div class="inkspire-hero-buttons">
+    <a href="https://docs.google.com/document/d/1Iov-jpYLPQUToIhNgXIo1Z04MVwUJDS6PQr_vq2oFHM/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-inkspire-catalogo">
+        <i class="fas fa-file-contract"></i> DOC con Precios de Venta
+    </a>
+    
+    <a href="#" class="btn-inkspire-contacto" onclick="abrirContacto()">
+        <i class="fas fa-user-plus"></i> Registrarme como Comprador
+    </a>
+</div>
+                </div>
+
+<div class="hero-cards-container">
+
+    <div class="hero-info-card">
+        <div class="card-info-title">
+            <h3 style="font-size: 0.95rem; font-weight: 400;">Libretas</h3>
+        </div>
+        <button class="card-cotizar-btn" onclick="cotizarMaterial('Libretas')">
+            Cotizar
+        </button>
+    </div>
+
+    <div class="hero-info-card">
+        <div class="card-info-title">
+            <h3 style="font-size: 0.95rem; font-weight: 400;">Estilógrafos</h3>
+        </div>
+        <button class="card-cotizar-btn" onclick="cotizarMaterial('Estilógrafos')">
+            Cotizar
+        </button>
+    </div>
+
+    <div class="hero-info-card">
+        <div class="card-info-title">
+            <h3 style="font-size: 0.95rem; font-weight: 400;">Material de Oficina</h3>
+        </div>
+        <button class="card-cotizar-btn" onclick="cotizarMaterial('Material de Oficina')">
+            Cotizar
+        </button>
+    </div>
+
+<div style="display: flex; justify-content: center; margin-top: 15px;">
+    <button 
+        class="card-cotizar-btn btn-cotizar-general" 
+        onclick="cotizarMaterialGeneral()"
+        style="width: auto; padding: 10px 25px; font-size: 0.9rem; font-weight: bold;"
+    >
+        Cotización General
+    </button>
+</div>
+
+</div>
+            </div>
+        </section>
+
+        <div class="search-bar-container">
+            <div class="search-input-group">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Buscar productos (mayoreo o menudeo)..." autocomplete="off">
+                <button class="search-clear-btn" id="clearSearchBtn"><i class="fas fa-times-circle"></i></button>
+            </div>
+        </div>
+
+        <section id="productosMayoreo" class="inkspire-productos">
+            <div class="inkspire-section-title">
+                <h2>Productos de Mayoreo</h2>
+                <p>Compra por volumen a precios especiales. Solicita tu cotización personalizada.</p>
+            </div>
+            <div class="inkspire-productos-grid" id="productosMayoreoContainer"></div>
+        </section>
+
+        <section id="productosMenudeo" class="inkspire-productos" style="background: #fef9f9;">
+            <div class="inkspire-section-title">
+                <h2>Productos de Menudeo</h2>
+                <p>Compra individual con precios fijos. Haz tu pedido directamente por WhatsApp.</p>
+            </div>
+            <div class="inkspire-productos-grid" id="productosMenudeoContainer"></div>
+        </section>
+
+        <section id="contactoSection" class="contacto-section">
+            <div class="inkspire-section-title">
+                <h2>Contáctanos</h2>
+                <p>Estamos para ayudarte a crecer tu negocio</p>
+            </div>
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <h3><i class="fas fa-headset"></i> Información de contacto</h3>
+                    <p><i class="fab fa-whatsapp"></i> +52 56 5533 3139</p>
+                    <p><i class="fas fa-envelope"></i> emiliocolormexico@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Lunes a Viernes: 9am - 6pm</p>
+                    <p><i class="fas fa-clock"></i> Sábados: 10am - 2pm</p>
+                    <hr>
+                    <p><i class="fas fa-truck"></i> ¿Necesitas cotización? Escríbenos y te atenderemos de inmediato.</p>
+                </div>
+                <div class="contacto-form">
+                    <h3><i class="fas fa-paper-plane"></i> Envíanos un mensaje</h3>
+                    <form id="contactoWhatsappForm">
+                        <div class="form-contacto-group">
+                            <label>Nombre de la empresa *</label>
+                            <input type="text" id="contactoEmpresa" required placeholder="Ej. Papelería El Centro">
+                        </div>
+                        <div class="form-contacto-group">
+                            <label>Tu nombre *</label>
+                            <input type="text" id="contactoNombre" required>
+                        </div>
+                        <div class="form-contacto-group">
+                            <label>Teléfono *</label>
+                            <input type="tel" id="contactoTelefono" required>
+                        </div>
+                        <div class="form-contacto-group">
+                            <label>Mensaje *</label>
+                            <textarea id="contactoMensaje" rows="3" placeholder="¿En qué podemos ayudarte?"></textarea>
+                        </div>
+                        <button type="submit" class="btn-contacto-submit"><i class="fab fa-whatsapp"></i> Enviar por WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+ <!-- SECCIÓN UBICACIÓN - ESTILO CUADRADO -->
+<!--<section id="ubicacionSection" class="inkspire-ubicacion">
+    <div class="inkspire-section-title">
+        <h2>📍 ¿Dónde nos ubicamos?</h2>
+        <p>Conoce nuestras sucursales y disponibilidad de productos</p>
+    </div>
+
+    <div class="sucursales-grid">
+        <div class="sucursal-card">
+            <div class="sucursal-header">
+                <i class="fas fa-store"></i>
+                <h3>EmilioColor Inkspire - Roma</h3>
+            </div>
+            <div class="sucursal-ubicacion">
+                <p><i class="fas fa-location-dot"></i> Av. Insurgentes Sur 123, Col. Roma Norte, Cuauhtémoc, CDMX</p>
+            </div>
+            <div class="sucursal-botones">
+                <button class="btn-copiar-ubicacion" onclick="copiarUbicacion('Av. Insurgentes Sur 123, Col. Roma Norte, Cuauhtémoc, CDMX')">
+                    <i class="fas fa-copy"></i> Copiar ubicación
+                </button>
+                <button class="btn-abrir-mapa" onclick="abrirMapaUbicacion('Av. Insurgentes Sur 123, Col. Roma Norte, Cuauhtémoc, CDMX')">
+                    <i class="fas fa-map-marked-alt"></i> Abrir en Maps
+                </button>
+            </div>
+            <div class="sucursal-existencias">
+                <p class="existencias-titulo"><i class="fas fa-boxes"></i> Existencias:</p>
+                <ul>
+                    <li><i class="fas fa-pencil-alt"></i> Estilógrafos (50+ modelos)</li>
+                    <li><i class="fas fa-book"></i> Libretas A6 (Raya/Cuadro/Punto)</li>
+                    <li><i class="fas fa-stamp"></i> Material de oficina</li>
+                    <li><i class="fas fa-graduation-cap"></i> Cursos digitales</li>
+                    <li><i class="fas fa-print"></i> Bolígrafos de escritorio</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sucursal-card">
+            <div class="sucursal-header">
+                <i class="fas fa-store"></i>
+                <h3>EmilioColor Inkspire - Polanco</h3>
+            </div>
+            <div class="sucursal-ubicacion">
+                <p><i class="fas fa-location-dot"></i> Av. Presidente Masaryk 456, Polanco, Miguel Hidalgo, CDMX</p>
+            </div>
+            <div class="sucursal-botones">
+                <button class="btn-copiar-ubicacion" onclick="copiarUbicacion('Av. Presidente Masaryk 456, Polanco, Miguel Hidalgo, CDMX')">
+                    <i class="fas fa-copy"></i> Copiar ubicación
+                </button>
+                <button class="btn-abrir-mapa" onclick="abrirMapaUbicacion('Av. Presidente Masaryk 456, Polanco, Miguel Hidalgo, CDMX')">
+                    <i class="fas fa-map-marked-alt"></i> Abrir en Maps
+                </button>
+            </div>
+            <div class="sucursal-existencias">
+                <p class="existencias-titulo"><i class="fas fa-boxes"></i> Existencias:</p>
+                <ul>
+                    <li><i class="fas fa-pencil-alt"></i> Estilógrafos (40+ modelos)</li>
+                    <li><i class="fas fa-book"></i> Libretas A6 (Todas las versiones)</li>
+                    <li><i class="fas fa-id-card"></i> Gafetes personalizables</li>
+                    <li><i class="fas fa-eraser"></i> Borradores con estampa</li>
+                    <li><i class="fas fa-laptop-code"></i> Cursos de programación</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sucursal-card">
+            <div class="sucursal-header">
+                <i class="fas fa-store"></i>
+                <h3>EmilioColor Inkspire - Santa Fe</h3>
+            </div>
+            <div class="sucursal-ubicacion">
+                <p><i class="fas fa-location-dot"></i> Prolongación Paseo de la Reforma 789, Santa Fe, Álvaro Obregón, CDMX</p>
+            </div>
+            <div class="sucursal-botones">
+                <button class="btn-copiar-ubicacion" onclick="copiarUbicacion('Prolongación Paseo de la Reforma 789, Santa Fe, Álvaro Obregón, CDMX')">
+                    <i class="fas fa-copy"></i> Copiar ubicación
+                </button>
+                <button class="btn-abrir-mapa" onclick="abrirMapaUbicacion('Prolongación Paseo de la Reforma 789, Santa Fe, Álvaro Obregón, CDMX')">
+                    <i class="fas fa-map-marked-alt"></i> Abrir en Maps
+                </button>
+            </div>
+            <div class="sucursal-existencias">
+                <p class="existencias-titulo"><i class="fas fa-boxes"></i> Existencias:</p>
+                <ul>
+                    <li><i class="fas fa-pencil-alt"></i> Estilógrafos (35+ modelos)</li>
+                    <li><i class="fas fa-book"></i> Libretas A6 (Especial punto)</li>
+                    <li><i class="fas fa-print"></i> Material de oficina completo</li>
+                    <li><i class="fas fa-chalkboard"></i> Cursos de electrónica</li>
+                    <li><i class="fas fa-microchip"></i> Kits básicos Arduino</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sucursal-card">
+            <div class="sucursal-header">
+                <i class="fas fa-store"></i>
+                <h3>EmilioColor Inkspire - Coyoacán</h3>
+            </div>
+            <div class="sucursal-ubicacion">
+                <p><i class="fas fa-location-dot"></i> Calle Francisco Sosa 321, Coyoacán Centro, CDMX</p>
+            </div>
+            <div class="sucursal-botones">
+                <button class="btn-copiar-ubicacion" onclick="copiarUbicacion('Calle Francisco Sosa 321, Coyoacán Centro, CDMX')">
+                    <i class="fas fa-copy"></i> Copiar ubicación
+                </button>
+                <button class="btn-abrir-mapa" onclick="abrirMapaUbicacion('Calle Francisco Sosa 321, Coyoacán Centro, CDMX')">
+                    <i class="fas fa-map-marked-alt"></i> Abrir en Maps
+                </button>
+            </div>
+            <div class="sucursal-existencias">
+                <p class="existencias-titulo"><i class="fas fa-boxes"></i> Existencias:</p>
+                <ul>
+                    <li><i class="fas fa-pencil-alt"></i> Estilógrafos (45+ modelos)</li>
+                    <li><i class="fas fa-book"></i> Libretas A6 (Raya/Cuadro)</li>
+                    <li><i class="fas fa-id-card"></i> Gafetes y accesorios</li>
+                    <li><i class="fas fa-robot"></i> Cursos de robótica</li>
+                    <li><i class="fas fa-drafting-compass"></i> Material de dibujo técnico</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sucursal-card">
+            <div class="sucursal-header">
+                <i class="fas fa-store"></i>
+                <h3>EmilioColor Inkspire - Tlalpan</h3>
+            </div>
+            <div class="sucursal-ubicacion">
+                <p><i class="fas fa-location-dot"></i> Calzada de Tlalpan 1234, Col. Tlalpan Centro, CDMX</p>
+            </div>
+            <div class="sucursal-botones">
+                <button class="btn-copiar-ubicacion" onclick="copiarUbicacion('Calzada de Tlalpan 1234, Col. Tlalpan Centro, CDMX')">
+                    <i class="fas fa-copy"></i> Copiar ubicación
+                </button>
+                <button class="btn-abrir-mapa" onclick="abrirMapaUbicacion('Calzada de Tlalpan 1234, Col. Tlalpan Centro, CDMX')">
+                    <i class="fas fa-map-marked-alt"></i> Abrir en Maps
+                </button>
+            </div>
+            <div class="sucursal-existencias">
+                <p class="existencias-titulo"><i class="fas fa-boxes"></i> Existencias:</p>
+                <ul>
+                    <li><i class="fas fa-pencil-alt"></i> Estilógrafos (30+ modelos)</li>
+                    <li><i class="fas fa-book"></i> Libretas A6 (Cuadro/Punto)</li>
+                    <li><i class="fas fa-print"></i> Bolígrafos especiales</li>
+                    <li><i class="fas fa-code"></i> Cursos de programación</li>
+                    <li><i class="fas fa-chart-line"></i> Material de papelería ejecutiva</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cobertura-aviso">
+        <i class="fas fa-truck-fast"></i>
+        <p><strong>Entregas solo en CDMX</strong> - Nos movemos hasta tu negocio dentro de la Ciudad de México. <br><strong>Sin servicio a otros estados del país.</strong></p>
+    </div>
+</section>-->
+
+<style>
+/* Estilos para cuadrados SIN bordes redondeados */
+.sucursales-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.sucursal-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 0px; /* Sin bordes redondeados */
+    padding: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.sucursal-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-color: var(--inkspire-red);
+}
+
+.sucursal-header {
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--inkspire-red);
+    padding-bottom: 10px;
+}
+
+.sucursal-header i {
+    font-size: 2rem;
+    color: var(--inkspire-red);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.sucursal-header h3 {
+    font-size: 1.1rem;
+    color: var(--inkspire-dark);
+    margin: 0;
+    font-weight: 600;
+}
+
+.sucursal-ubicacion {
+    margin-bottom: 15px;
+    min-height: 60px;
+}
+
+.sucursal-ubicacion p {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.4;
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.sucursal-ubicacion i {
+    color: var(--inkspire-red);
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.sucursal-botones {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-copiar-ubicacion, .btn-abrir-mapa {
+    flex: 1;
+    padding: 8px 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 0px; /* Sin bordes redondeados */
+}
+
+.btn-copiar-ubicacion {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.btn-copiar-ubicacion:hover {
+    background: var(--inkspire-red);
+    color: white;
+}
+
+.btn-abrir-mapa {
+    background: var(--inkspire-dark);
+    color: white;
+}
+
+.btn-abrir-mapa:hover {
+    background: var(--inkspire-red);
+}
+
+.sucursal-existencias {
+    margin-top: auto;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
+
+.existencias-titulo {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    color: var(--inkspire-dark);
+}
+
+.sucursal-existencias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sucursal-existencias li {
+    font-size: 0.75rem;
+    padding: 4px 0;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.sucursal-existencias li i {
+    color: var(--inkspire-red);
+    width: 18px;
+    font-size: 0.7rem;
+}
+
+.cobertura-aviso {
+    max-width: 800px;
+    margin: 40px auto 0;
+    background: #fff3cd;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 0px; /* Sin bordes redondeados */
+}
+
+.cobertura-aviso i {
+    font-size: 1.8rem;
+    color: #856404;
+}
+
+.cobertura-aviso p {
+    margin: 0;
+    color: #856404;
+    font-size: 0.9rem;
+}
+
+/* Responsive: 4 por fila en desktop, se ajusta en móvil */
+@media (max-width: 1100px) {
+    .sucursales-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .sucursales-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .sucursal-botones {
+        flex-direction: column;
+    }
+    
+    .cobertura-aviso {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1400px) {
+    .sucursales-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+</style>
+
+<script>
+// Función para copiar ubicación al portapapeles
+function copiarUbicacion(direccion) {
+    navigator.clipboard.writeText(direccion).then(() => {
+        mostrarToastPersonalizado('📍 Ubicación copiada: ' + direccion.substring(0, 50) + (direccion.length > 50 ? '...' : ''));
+    }).catch(() => {
+        alert('No se pudo copiar la ubicación');
+    });
+}
+
+// Función para abrir Google Maps con la dirección
+function abrirMapaUbicacion(direccion) {
+    const url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(direccion)}`;
+    window.open(url, '_blank');
+}
+
+// Toast de notificación
+function mostrarToastPersonalizado(mensaje) {
+    let toast = document.getElementById('toastPersonalizado');
+    if(!toast) {
+        toast = document.createElement('div');
+        toast.id = 'toastPersonalizado';
+        toast.style.cssText = 'position:fixed; bottom:30px; left:50%; transform:translateX(-50%); background:#27ae60; color:white; padding:12px 24px; z-index:9999; font-size:0.9rem; font-family:Poppins,sans-serif; box-shadow:0 2px 10px rgba(0,0,0,0.2); border-radius:0px; max-width:90%; text-align:center;';
+        document.body.appendChild(toast);
+    }
+    toast.innerHTML = '<i class="fas fa-check-circle"></i> ' + mensaje;
+    toast.style.display = 'block';
+    setTimeout(() => {
+        toast.style.display = 'none';
+    }, 2500);
+}
+</script>
+
+        <section class="inkspire-beneficios">
+            <div class="inkspire-section-title">
+                <h2>¿Por qué elegir EmilioColor Inkspire?</h2>
+                <p>Ventajas exclusivas de ser nuestro cliente mayorista</p>
+            </div>
+            <div class="inkspire-beneficios-grid">
+                <div class="inkspire-beneficio-card">
+                    <i class="fas fa-tags"></i>
+                    <h3>Precios Mayoristas</h3>
+                    <p>Los mejores precios del mercado para compras por volumen.</p>
+                </div>
+                <div class="inkspire-beneficio-card">
+                    <i class="fas fa-truck-fast"></i>
+                    <h3>Logística Eficiente</h3>
+                    <p>Entregas en toda la CDMX.</p>
+                </div>
+                <div class="inkspire-beneficio-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>Calidad</h3>
+                    <p>Trabajamos con los mejores materiales.</p>
+                </div>
+                <div class="inkspire-beneficio-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Asesoría Dedicada</h3>
+                    <p>Ejecutivo de cuenta personalizado.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="legal-notice">
+            <h3>Aviso Legal</h3>
+            <p>EmilioColor Inkspire es una división de EmilioColor®. Todos los productos ofrecidos cuentan con garantía de calidad y procedencia legal.</p>
+            <div class="legal-notice-buttons">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=emiliocolormexico@gmail.com&su=Notice%20and%20Takedown" target="_blank"><i class="fas fa-gavel"></i> Notice and Takedown</a>
+                <a href="https://docs.google.com/document/d/1FgiA8nrpe9q5yPTA_QFVfdwG_rNUWCSSrbHbCzfgb2s/edit?usp=sharing" target="_blank"><i class="fas fa-file-contract"></i> Consultar Aviso Legal</a>
+            </div>
+        </div>
+    </main>
+
+    <div id="cotizarModal" class="inkspire-modal">
+        <div class="inkspire-modal-content">
+            <span class="inkspire-modal-close" onclick="cerrarCotizarModal()">&times;</span>
+            <h2><i class="fab fa-whatsapp"></i> Cotizar producto</h2>
+            <p style="margin-bottom: 1rem;">Completa el formulario y recibe tu cotización por WhatsApp al instante.</p>
+            <form id="formCotizacionWhatsapp">
+                <div class="inkspire-form-group"><label>Nombre completo *</label><input type="text" id="cotNombre" required></div>
+                <div class="inkspire-form-group"><label>Teléfono *</label><input type="tel" id="cotTelefono" required></div>
+                <div class="inkspire-form-group"><label>Email *</label><input type="email" id="cotEmail" required></div>
+                <div class="inkspire-form-group"><label>Nombre de papelería o empresa *</label><input type="text" id="cotEmpresa" required></div>
+                <div class="inkspire-form-group"><label>Alcaldía (CDMX) *</label><input type="text" id="cotAlcaldia" placeholder="Ej. Cuauhtémoc, Benito Juárez" required></div>
+                <div class="inkspire-form-group"><label>Mensaje *</label><textarea id="cotMensaje" rows="3" placeholder="¿Qué producto te interesa?"></textarea></div>
+                <input type="hidden" id="cotProductoNombre" value="">
+                <button type="submit" class="btn-inkspire-submit"><i class="fab fa-whatsapp"></i> Enviar cotización por WhatsApp</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="catalogoModal" class="inkspire-modal">
+        <div class="inkspire-modal-content">
+            <span class="inkspire-modal-close" onclick="cerrarCatalogo()">&times;</span>
+            <h2><i class="fas fa-book-open"></i> Catálogo de Precios Mayorista</h2>
+            <p style="margin-bottom: 1rem;">Completa tus datos para recibir el catálogo de precios mayoristas.</p>
+            <form id="catalogoForm">
+                <div class="inkspire-form-group"><label>Nombre Empresa *</label><input type="text" id="catEmpresa" required></div>
+                <div class="inkspire-form-group"><label>Nombre Completo *</label><input type="text" id="catNombre" required></div>
+                <div class="inkspire-form-group"><label>Email *</label><input type="email" id="catEmail" required></div>
+                <div class="inkspire-form-group"><label>Teléfono *</label><input type="tel" id="catTelefono" required></div>
+                <div class="inkspire-form-group"><label>Alcaldía (CDMX) *</label><input type="text" id="catAlcaldia" placeholder="Ej. Cuauhtémoc, Benito Juárez" required></div>
+                <button type="submit" class="btn-inkspire-submit"><i class="fab fa-whatsapp"></i> Solicitar Catálogo</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="contactoModal" class="inkspire-modal">
+        <div class="inkspire-modal-content">
+            <span class="inkspire-modal-close" onclick="cerrarContacto()">&times;</span>
+            <h2><i class="fas fa-check-circle"></i> Conviértete en Comprador Mayorista</h2>
+            <p style="margin-bottom: 1rem;">Regístrate para recibir precios exclusivos y asesoría personalizada en CDMX.</p>
+            <form id="contactoForm">
+                <div class="inkspire-form-group"><label>Razón Social *</label><input type="text" id="regRazonSocial" required></div>
+                <div class="inkspire-form-group"><label>RFC *</label><input type="text" id="regRfc" required></div>
+                <div class="inkspire-form-group"><label>Nombre Contacto *</label><input type="text" id="regNombre" required></div>
+                <div class="inkspire-form-group"><label>Email *</label><input type="email" id="regEmail" required></div>
+                <div class="inkspire-form-group"><label>Teléfono *</label><input type="tel" id="regTelefono" required></div>
+                <div class="inkspire-form-group"><label>Alcaldía (CDMX) *</label><input type="text" id="regAlcaldia" placeholder="Ej. Cuauhtémoc, Benito Juárez" required></div>
+                <button type="submit" class="btn-inkspire-submit"><i class="fab fa-whatsapp"></i> Enviar Solicitud</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="inkspireToast" class="inkspire-toast"><i class="fas fa-check-circle"></i> Redirigiendo a WhatsApp...</div>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo_transparente.png" alt="EmilioColor Logo">
+                </div>
+                <div class="footer-nav">
+                    <h4>Navegación Rápida</h4>
+                    <a href="#productosMayoreo" class="footer-nav-link"><i class="fas fa-boxes"></i> Mayoreo</a>
+                    <a href="#productosMenudeo" class="footer-nav-link"><i class="fas fa-shopping-cart"></i> Menudeo</a>
+                    <a href="#contactoSection" class="footer-nav-link"><i class="fas fa-envelope"></i> Contacto</a>
+                    <a href="#ubicacionSection" class="footer-nav-link"><i class="fas fa-map-marker-alt"></i> Ubicación</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p><i class="fab fa-whatsapp"></i> +52 56 5533 3139</p>
+                    <p><i class="fas fa-envelope"></i> emiliocolormexico@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="footer-social-links">
+                        <a href="https://www.facebook.com/people/Emilio-Color/61558765116854/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/emiliocolormexico/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5256333139" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 EmilioColor® Inkspire™ | Todos los derechos reservados. | Servicio exclusivo en CDMX</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function cotizarMaterial(material) {
+            const mensaje = `Hola, estoy interesado en cotizar *${encodeURIComponent(material)}* para mi negocio en CDMX. Por favor, envíenme información de precios y disponibilidad.`;
+            const url = `https://wa.me/525655333139?text=${mensaje}`;
+            mostrarToastWhatsapp();
+            setTimeout(() => { window.open(url, '_blank'); }, 800);
+        }
+        
+        function cotizarMaterialGeneral() {
+            const mensaje = `Hola, me interesa recibir una cotización general de materiales (libretas, estilógrafos y material de oficina) para surtir mi negocio en CDMX. Por favor, contáctenme.`;
+            const url = `https://wa.me/525655333139?text=${encodeURIComponent(mensaje)}`;
+            mostrarToastWhatsapp();
+            setTimeout(() => { window.open(url, '_blank'); }, 800);
+        }
+
+        const cursosConPrecio = [
+            { nombre: "Curso Básico de Arduino: Aprende Electrónica y Programación", precio: 5 },
+            { nombre: "Curso Básico de Arduino y Microcontrolador PIC", precio: 5 },
+            { nombre: "Curso Básico de Robótica con MATLAB y Arduino: Modelado y Simulación", precio: 5 },
+            { nombre: "Curso Básico de Electrónica Analógica y Digital", precio: 5 },
+            { nombre: "Biblioteca de materiales: Electronica, Robótica y Domotica", precio: 5 },
+            { nombre: "Curso Básico de Minitab para control de calidad", precio: 5 },
+            { nombre: "Curso Básico de Control de motores con variadores de frecuencia", precio: 5 },
+            { nombre: "Biblioteca de materiales en: fundamentos de mecánica industrial", precio: 5 },
+            { nombre: "Curso de Programación Básica de PLCs Industriales", precio: 5 },
+            { nombre: "Biblioteca de ingeniería: Recursos y materiales", precio: 5 },
+            { nombre: "Curso de Programación Básica de Torno y Fresadora CNC", precio: 5 },
+            { nombre: "Curso completo de SolidWorks", precio: 15 },
+            { nombre: "Curso completo de AUTOCAD", precio: 15 },
+            { nombre: "Curso completo de AUTOCAD electrical", precio: 15 },
+            { nombre: "Curso Básico de Programación CNC avanzada", precio: 5 },
+            { nombre: "Curso Básico de Core Tools para gestión de calidad", precio: 5 },
+            { nombre: "Curso Básico de Técnicas de balanceo de lineas de producción", precio: 5 },
+            { nombre: "Curso de Introducción a MRP (Planificación de Requisitos de Materiales)", precio: 5 },
+            { nombre: "Curso Básico de Learn Manufacturing", precio: 5 },
+            { nombre: "Curso Básico de Industria 4.0", precio: 5 },
+            { nombre: "47 lecciones de inglés", precio: 25 },
+            { nombre: "Curso completo de excel", precio: 25 },
+            { nombre: "Curso básico de Office", precio: 25 },
+            { nombre: "Curso de Hacking Ético Y Programación", precio: 5 },
+            { nombre: "Curso de Inteligencia Artificial: ChatGPT, DALL·E y Hugging Face", precio: 5 },
+            { nombre: "Curso de Programacion En Java", precio: 5 },
+            { nombre: "Curso Completo de 5 Lenguajes de Programación: C, C++, C#, Python y JavaScript", precio: 5 },
+            { nombre: "Curso Fundamentos de Windows 10", precio: 5 },
+            { nombre: "Curso de Diseño responsivo con cajas flexibles (CSS3)", precio: 5 },
+            { nombre: "Curso de Desarrollo Web", precio: 5 },
+            { nombre: "Curso de Diseño Web con Bootstrap", precio: 5 },
+            { nombre: "Curso de Marketing Digital", precio: 5 },
+            { nombre: "Curso de PrimeFaces y Spring Boot: Crea tu primera app web con Java", precio: 5 },
+            { nombre: "Curso Crea aplicaciones iOS y Android con Angular", precio: 5 },
+            { nombre: "Curso Comienza a programar en Python desde cero", precio: 5 },
+            { nombre: "Curso Java SE: Taller de programación de cero a trainee", precio: 5 },
+            { nombre: "Biblioteca de materiales: Colección de libros esenciales de programación", precio: 5 },
+            { nombre: "Curso Básico de Proceso CRUD C# con: Oracle Database, PostgreSQL y Visual FoxPro", precio: 5 }
+        ];
+
+        const productosMayoreo = [
+            { nombre: 'Estilógrafo Tinta Líquida 0.5mm', descripcion: 'Escritura suave de secado rápido, no rompe la tinta.', imagen: 'mayoreo_pluma_negra.png', tag: 'Color Negro - Mayoreo' },
+            { nombre: 'Estilógrafo Tinta Líquida 0.5mm', descripcion: 'Escritura suave de secado rápido, no rompe la tinta.', imagen: 'mayoreo_pluma_azul.png', tag: 'Color Azul - Mayoreo' },
+            { nombre: 'Estilógrafo Tinta Líquida 0.5mm', descripcion: 'Escritura suave de secado rápido, no rompe la tinta.', imagen: 'mayoreo_pluma_roja.png', tag: 'Color Rojo - Mayoreo' },
+            { nombre: 'Libreta A6 variadas con curso incluido', descripcion: 'Libretas A6 (raya, punto, cuadro) + acceso a curso digital gratuito.', imagenes: ['cursos_en_libreta/1.jpg','cursos_en_libreta/2.jpeg', 'cursos_en_libreta/3.jpeg', 'cursos_en_libreta/4.jpeg', 'cursos_en_libreta/5.jpeg', 'cursos_en_libreta/6.jpeg', 'cursos_en_libreta/7.jpeg'], tag: 'Pack Especial + Curso' }
+        ];
+        
+        const productosMenudeo = [
+            { nombre: '3 Unidades de Estilógrafos Tinta Líquida 0.5mm', descripcion: 'Incluye colores azul eléctrico, rojo cereza y negro.', imagen: 'minorista_pluma_negra1.png', tag: 'Paquete Escolar', precioUnitario: 30 },
+            { nombre: '9 Unidades de Estilógrafos Tinta Líquida 0.5mm', descripcion: 'Incluye anaranjado, amarillo, verde bandera, verde limón, azul marino, azul cielo, morado, rosa y café.', imagen: 'minorista_colores.png', tag: 'Paquete Creativo', precioUnitario: 90 },
+            { nombre: 'Estampa Personalizable para Estilógrafo', descripcion: 'Diseño personalizable con tamaños y formatos estandarizados.', imagen: 'estampas_estilografos.png', tag: 'Personalizable', precioUnitario: 10 },
+            { nombre: 'Libreta A6 70 hojas Raya', descripcion: 'Ideal para apuntes. Incluye curso de tu elección.', imagen: 'raya_a6.png', tag: 'Raya', precioUnitario: 25 },
+            { nombre: 'Libreta A6 70 hojas Cuadro', descripcion: 'Ideal para bocetos. Incluye curso de tu elección.', imagen: 'cuadro_a6.png', tag: 'Cuadro', precioUnitario: 25 },
+            { nombre: 'Libreta A6 70 hojas Punto', descripcion: 'Perfecta para dibujo. Incluye curso de tu elección.', imagen: 'punto_a6.png', tag: 'Punto', precioUnitario: 25 },
+            { nombre: 'Libreta A6 70 hojas + Curso Digital', descripcion: 'Perfecta para dibujos y notas. Incluye curso de tu elección.', imagen: 'cursos_en_libreta/1.jpg', tag: 'Libreta + Curso', precioUnitario: 25, tieneCurso: true },
+            { nombre: 'Borrador con Estampa Personalizable', descripcion: 'Tamaños y formatos estandarizados.', imagen: 'goma.png', tag: 'Personalizable', precioUnitario: 20 },
+            { nombre: 'Bolígrafos de Escritorio', descripcion: 'Colores azul y rojo.', imagen: 'pluma_mesa.png', tag: 'Colores Variados', precioUnitario: 30 },
+            { nombre: 'Gafete de Listón Grueso', descripcion: 'Colores azul y negro.', imagen: 'gafete.png', tag: 'Vertical y Horizontal', precioUnitario: 12 }
+        ];
+
+        function crearCarrusel(imagenes) {
+            let currentIndex = 0;
+            const carouselDiv = document.createElement('div');
+            carouselDiv.className = 'carousel-container';
+            carouselDiv.style.width = '100%';
+            carouselDiv.style.height = '100%';
+            
+            const imgElement = document.createElement('img');
+            imgElement.className = 'carousel-image';
+            imgElement.src = imagenes[currentIndex];
+            imgElement.alt = 'producto';
+            
+            const prevBtn = document.createElement('button');
+            prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+            prevBtn.className = 'carousel-btn carousel-btn-prev';
+            
+            const nextBtn = document.createElement('button');
+            nextBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
+            nextBtn.className = 'carousel-btn carousel-btn-next';
+            
+            const dotsDiv = document.createElement('div');
+            dotsDiv.className = 'carousel-dots';
+            const dots = [];
+            
+            for (let i = 0; i < imagenes.length; i++) {
+                const dot = document.createElement('div');
+                dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+                dot.addEventListener('click', () => {
+                    currentIndex = i;
+                    imgElement.src = imagenes[currentIndex];
+                    actualizarDots();
+                });
+                dotsDiv.appendChild(dot);
+                dots.push(dot);
+            }
+            
+            function actualizarDots() {
+                dots.forEach((dot, idx) => {
+                    if (idx === currentIndex) dot.classList.add('active');
+                    else dot.classList.remove('active');
+                });
+            }
+            
+            prevBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + imagenes.length) % imagenes.length;
+                imgElement.src = imagenes[currentIndex];
+                actualizarDots();
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % imagenes.length;
+                imgElement.src = imagenes[currentIndex];
+                actualizarDots();
+            });
+            
+            carouselDiv.appendChild(prevBtn);
+            carouselDiv.appendChild(imgElement);
+            carouselDiv.appendChild(nextBtn);
+            carouselDiv.appendChild(dotsDiv);
+            return carouselDiv;
+        }
+
+        function renderProductosMayoreo() {
+            const container = document.getElementById('productosMayoreoContainer');
+            if(!container) return;
+            container.innerHTML = '';
+            productosMayoreo.forEach(prod => {
+                const card = document.createElement('div');
+                card.className = 'inkspire-producto-card mayoreo-card';
+                card.setAttribute('data-nombre', prod.nombre.toLowerCase());
+                const imgContainer = document.createElement('div');
+                imgContainer.className = 'inkspire-producto-img';
+                if(prod.imagenes && prod.imagenes.length > 1) {
+                    const carrusel = crearCarrusel(prod.imagenes);
+                    imgContainer.appendChild(carrusel);
+                } else {
+                    const img = document.createElement('img');
+                    img.src = prod.imagen;
+                    img.alt = prod.nombre;
+                    img.className = 'producto-imagen-principal';
+                    img.onerror = function() { this.style.display = 'none'; };
+                    imgContainer.appendChild(img);
+                }
+                const infoDiv = document.createElement('div');
+                infoDiv.className = 'inkspire-producto-info';
+                infoDiv.innerHTML = `<span class="inkspire-producto-tag">${prod.tag}</span><h3>${prod.nombre}</h3><p>${prod.descripcion}</p><button class="btn-cotizar-main" data-nombre="${prod.nombre}"><i class="fas fa-dollar-sign"></i> Cotizar Mayoreo</button>`;
+                card.appendChild(imgContainer);
+                card.appendChild(infoDiv);
+                container.appendChild(card);
+            });
+            document.querySelectorAll('#productosMayoreoContainer .btn-cotizar-main').forEach(btn => btn.addEventListener('click', () => { abrirCotizarModal(btn.getAttribute('data-nombre')); }));
+        }
+
+        function renderProductosMenudeo() {
+            const container = document.getElementById('productosMenudeoContainer');
+            if(!container) return;
+            container.innerHTML = '';
+            productosMenudeo.forEach((prod, idx) => {
+                const prodId = `menudeo_${idx}`;
+                const card = document.createElement('div');
+                card.className = 'inkspire-producto-card menudeo-card';
+                card.setAttribute('data-nombre', prod.nombre.toLowerCase());
+                let cursoHtml = '';
+                if(prod.tieneCurso) {
+                    cursoHtml = `<div class="curso-selector"><label><i class="fas fa-graduation-cap"></i> Selecciona tu curso:</label><select id="cursoSelect_${prodId}">${cursosConPrecio.map(curso => `<option value='${curso.nombre}|${curso.precio}'>${curso.nombre} - $${curso.precio}.00 MXN</option>`).join('')}</select></div>`;
+                }
+                card.innerHTML = `<div class="inkspire-producto-img"><img src="${prod.imagen}" alt="${prod.nombre}" class="producto-imagen-principal" onerror="this.style.display='none';"></div><div class="inkspire-producto-info"><span class="inkspire-producto-tag menudeo-tag">${prod.tag}</span><h3>${prod.nombre}</h3><p>${prod.descripcion}</p><div class="producto-precio" id="precio_${prodId}"><i class="fas fa-tag"></i> $${prod.precioUnitario}.00 MXN</div><div class="cantidad-selector"><label>Cantidad:</label><div class="cantidad-control"><button class="cantidad-btn" data-id="${prodId}" data-operacion="menos">-</button><input type="number" id="cant_${prodId}" value="1" min="1" step="1" class="cantidad-input"><button class="cantidad-btn" data-id="${prodId}" data-operacion="mas">+</button></div></div>${cursoHtml}<button class="btn-comprar-menudeo" data-nombre="${prod.nombre}" data-precio-unitario="${prod.precioUnitario}" data-id="${prodId}" data-tiene-curso="${prod.tieneCurso || false}"><i class="fab fa-whatsapp"></i> Comprar por WhatsApp</button></div>`;
+                container.appendChild(card);
+            });
+            document.querySelectorAll('.cantidad-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const targetId = btn.getAttribute('data-id');
+                    const input = document.getElementById(`cant_${targetId}`);
+                    let val = parseInt(input.value) || 1;
+                    if(btn.getAttribute('data-operacion') === 'menos') val = Math.max(1, val - 1);
+                    else val = val + 1;
+                    input.value = val;
+                    actualizarPrecioMenudeo(targetId);
+                });
+            });
+            document.querySelectorAll('.cantidad-input').forEach(inp => {
+                inp.addEventListener('change', function() {
+                    let val = parseInt(this.value);
+                    if(isNaN(val) || val < 1) this.value = 1;
+                    actualizarPrecioMenudeo(this.id.replace('cant_', ''));
+                });
+            });
+            document.querySelectorAll('.btn-comprar-menudeo').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const prodNombre = btn.getAttribute('data-nombre');
+                    const precioUnit = parseFloat(btn.getAttribute('data-precio-unitario'));
+                    const targetId = btn.getAttribute('data-id');
+                    const cantidad = parseInt(document.getElementById(`cant_${targetId}`).value) || 1;
+                    const totalLibreta = precioUnit * cantidad;
+                    let cursoSeleccionado = '';
+                    let precioCurso = 0;
+                    if(btn.getAttribute('data-tiene-curso') === 'true') {
+                        const selectCurso = document.getElementById(`cursoSelect_${targetId}`);
+                        if(selectCurso) {
+                            const [nombreCurso, precioCursoStr] = selectCurso.value.split('|');
+                            cursoSeleccionado = nombreCurso;
+                            precioCurso = parseInt(precioCursoStr);
+                        }
+                    }
+                    const totalFinal = totalLibreta + (precioCurso * cantidad);
+                    enviarMensajeMenudeo(prodNombre, cantidad, totalLibreta, totalFinal, cursoSeleccionado, precioCurso);
+                });
+            });
+        }
+
+        function actualizarPrecioMenudeo(idBase) {
+            const inputCant = document.getElementById(`cant_${idBase}`);
+            const cantidad = parseInt(inputCant.value) || 1;
+            const btn = document.querySelector(`.btn-comprar-menudeo[data-id="${idBase}"]`);
+            if(!btn) return;
+            const precioUnitario = parseFloat(btn.getAttribute('data-precio-unitario'));
+            let total = precioUnitario * cantidad;
+            const tieneCurso = btn.getAttribute('data-tiene-curso') === 'true';
+            if(tieneCurso) {
+                const selectCurso = document.getElementById(`cursoSelect_${idBase}`);
+                if(selectCurso) {
+                    const [, precioCursoStr] = selectCurso.value.split('|');
+                    const precioCurso = parseInt(precioCursoStr);
+                    total = (precioUnitario * cantidad) + (precioCurso * cantidad);
+                }
+            }
+            const precioDiv = document.getElementById(`precio_${idBase}`);
+            if(precioDiv) precioDiv.innerHTML = `<i class="fas fa-tag"></i> $${total}.00 MXN`;
+            
+            const selectCurso = document.getElementById(`cursoSelect_${idBase}`);
+            if(selectCurso) {
+                selectCurso.addEventListener('change', () => actualizarPrecioMenudeo(idBase));
+            }
+        }
+
+        function enviarMensajeMenudeo(productoNombre, cantidad, totalLibreta, totalFinal, curso = '', precioCurso = 0) {
+            let mensaje = `*COMPRA MENUDEO - EmilioColor Inkspire*%0A%0A*Producto:* ${encodeURIComponent(productoNombre)}%0A*Cantidad:* ${cantidad} pieza(s)%0A*Subtotal libreta(s):* $${totalLibreta.toFixed(2)} MXN`;
+            if(curso) {
+                mensaje += `%0A*Curso seleccionado:* ${encodeURIComponent(curso)}%0A*Precio curso por unidad:* $${precioCurso}.00 MXN%0A*Subtotal curso(s):* $${(precioCurso * cantidad).toFixed(2)} MXN`;
+            }
+            mensaje += `%0A*Total a pagar:* $${totalFinal.toFixed(2)} MXN`;
+            mensaje += `%0A%0AMe interesa realizar esta compra para entrega en CDMX. Por favor, indíquenme los métodos de pago disponibles y proceso de envío.%0A%0AGracias.`;
+            const url = `https://wa.me/525549077050?text=${mensaje}`;
+            mostrarToastWhatsapp();
+            setTimeout(() => { window.open(url, '_blank'); }, 800);
+        }
+
+        function normalizeString(str) {
+            return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        }
+
+        function filtrarProductos() {
+            const searchTerm = normalizeString(document.getElementById('searchInput').value);
+            const clearBtn = document.getElementById('clearSearchBtn');
+            if(searchTerm.length > 0) {
+                clearBtn.style.display = 'block';
+            } else {
+                clearBtn.style.display = 'none';
+            }
+            
+            const mayoreoCards = document.querySelectorAll('#productosMayoreoContainer .inkspire-producto-card');
+            const menudeoCards = document.querySelectorAll('#productosMenudeoContainer .inkspire-producto-card');
+            
+            let mayoreoVisible = false;
+            let menudeoVisible = false;
+            
+            mayoreoCards.forEach(card => {
+                const nombre = card.getAttribute('data-nombre') || '';
+                if(searchTerm === '' || normalizeString(nombre).includes(searchTerm)) {
+                    card.style.display = '';
+                    mayoreoVisible = true;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            
+            menudeoCards.forEach(card => {
+                const nombre = card.getAttribute('data-nombre') || '';
+                if(searchTerm === '' || normalizeString(nombre).includes(searchTerm)) {
+                    card.style.display = '';
+                    menudeoVisible = true;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            
+            const mayoreoSection = document.getElementById('productosMayoreo');
+            const menudeoSection = document.getElementById('productosMenudeo');
+            if(mayoreoSection) mayoreoSection.style.display = mayoreoVisible ? 'block' : 'none';
+            if(menudeoSection) menudeoSection.style.display = menudeoVisible ? 'block' : 'none';
+        }
+
+        function abrirCotizarModal(productoNombre = 'Producto general') { document.getElementById('cotProductoNombre').value = productoNombre; document.getElementById('cotizarModal').style.display = 'block'; document.body.style.overflow = 'hidden'; }
+        function cerrarCotizarModal() { document.getElementById('cotizarModal').style.display = 'none'; document.body.style.overflow = 'auto'; }
+        function abrirCatalogo() { document.getElementById('catalogoModal').style.display='block'; document.body.style.overflow='hidden'; }
+        function cerrarCatalogo() { document.getElementById('catalogoModal').style.display='none'; document.body.style.overflow='auto'; }
+        function abrirContacto() { document.getElementById('contactoModal').style.display='block'; document.body.style.overflow='hidden'; }
+        function cerrarContacto() { document.getElementById('contactoModal').style.display='none'; document.body.style.overflow='auto'; }
+        function abrirContactoVisita() { 
+            const mensaje = "Hola, me interesaría agendar una visita o reunión para conocer más sobre los productos de mayoreo en CDMX y poder suministrar a mi negocio. Por favor contáctenme.";
+            const url = `https://wa.me/525655333139?text=${encodeURIComponent(mensaje)}`;
+            window.open(url, '_blank');
+        }
+        
+        function mostrarToastWhatsapp() { const toast=document.getElementById('inkspireToast'); toast.style.display='block'; setTimeout(()=>{ toast.style.display='none'; },3000); }
+
+        document.getElementById('formCotizacionWhatsapp')?.addEventListener('submit', function(e) { e.preventDefault(); const nombre=document.getElementById('cotNombre').value.trim(); const telefono=document.getElementById('cotTelefono').value.trim(); const email=document.getElementById('cotEmail').value.trim(); const empresa=document.getElementById('cotEmpresa').value.trim(); const alcaldia=document.getElementById('cotAlcaldia').value.trim(); const mensajeExtra=document.getElementById('cotMensaje').value.trim(); const producto=document.getElementById('cotProductoNombre').value; if(!nombre||!telefono||!email||!empresa||!alcaldia){alert("Completa todos los campos.");return;} const mensajeWhatsapp=`*COTIZACIÓN MAYORISTA - EmilioColor Inkspire (CDMX)*%0A%0A*Producto:* ${encodeURIComponent(producto)}%0A*Nombre:* ${encodeURIComponent(nombre)}%0A*Teléfono:* ${encodeURIComponent(telefono)}%0A*Email:* ${encodeURIComponent(email)}%0A*Papelería/Empresa:* ${encodeURIComponent(empresa)}%0A*Alcaldía (CDMX):* ${encodeURIComponent(alcaldia)}%0A*Mensaje:* ${encodeURIComponent(mensajeExtra||"Sin mensaje adicional")}%0A%0A*Solicitud de cotización*`; const url=`https://wa.me/525655333139?text=${mensajeWhatsapp}`; mostrarToastWhatsapp(); setTimeout(()=>{window.open(url,'_blank'); cerrarCotizarModal(); document.getElementById('formCotizacionWhatsapp').reset();},800); });
+        
+        document.getElementById('contactoWhatsappForm')?.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const empresa = document.getElementById('contactoEmpresa').value.trim();
+            const nombre = document.getElementById('contactoNombre').value.trim();
+            const telefono = document.getElementById('contactoTelefono').value.trim();
+            const mensaje = document.getElementById('contactoMensaje').value.trim();
+            if(!empresa || !nombre || !telefono) { alert("Completa los campos obligatorios."); return; }
+            const whatsappMsg = `*CONTACTO DESDE WEB - EmilioColor Inkspire (CDMX)*%0A%0A*Empresa:* ${encodeURIComponent(empresa)}%0A*Nombre:* ${encodeURIComponent(nombre)}%0A*Teléfono:* ${encodeURIComponent(telefono)}%0A*Mensaje:* ${encodeURIComponent(mensaje || "Sin mensaje adicional")}`;
+            const url = `https://wa.me/525655333139?text=${whatsappMsg}`;
+            mostrarToastWhatsapp();
+            setTimeout(() => { window.open(url, '_blank'); this.reset(); }, 800);
+        });
+
+        document.getElementById('catalogoForm')?.addEventListener('submit', function(e) { 
+            e.preventDefault(); 
+            const empresa = document.getElementById('catEmpresa').value.trim();
+            const nombre = document.getElementById('catNombre').value.trim();
+            const email = document.getElementById('catEmail').value.trim();
+            const telefono = document.getElementById('catTelefono').value.trim();
+            const alcaldia = document.getElementById('catAlcaldia').value.trim();
+            if(!empresa || !nombre || !email || !telefono || !alcaldia) { alert("Completa todos los campos."); return; }
+            const mensaje = `*SOLICITUD DE CATÁLOGO - EmilioColor Inkspire (CDMX)*%0A%0A*Empresa:* ${encodeURIComponent(empresa)}%0A*Nombre:* ${encodeURIComponent(nombre)}%0A*Email:* ${encodeURIComponent(email)}%0A*Teléfono:* ${encodeURIComponent(telefono)}%0A*Alcaldía:* ${encodeURIComponent(alcaldia)}%0A%0A*Solicito el catálogo de precios mayoristas*`;
+            const url = `https://wa.me/525655333139?text=${mensaje}`;
+            mostrarToastWhatsapp();
+            setTimeout(() => { window.open(url, '_blank'); cerrarCatalogo(); this.reset(); }, 800);
+        });
+        
+        document.getElementById('contactoForm')?.addEventListener('submit', function(e) { 
+            e.preventDefault(); 
+            const razonSocial = document.getElementById('regRazonSocial').value.trim();
+            const rfc = document.getElementById('regRfc').value.trim();
+            const nombre = document.getElementById('regNombre').value.trim();
+            const email = document.getElementById('regEmail').value.trim();
+            const telefono = document.getElementById('regTelefono').value.trim();
+            const alcaldia = document.getElementById('regAlcaldia').value.trim();
+            if(!razonSocial || !rfc || !nombre || !email || !telefono || !alcaldia) { alert("Completa todos los campos."); return; }
+            const mensaje = `*REGISTRO COMPRADOR MAYORISTA - EmilioColor Inkspire (CDMX)*%0A%0A*Razón Social:* ${encodeURIComponent(razonSocial)}%0A*RFC:* ${encodeURIComponent(rfc)}%0A*Nombre Contacto:* ${encodeURIComponent(nombre)}%0A*Email:* ${encodeURIComponent(email)}%0A*Teléfono:* ${encodeURIComponent(telefono)}%0A*Alcaldía:* ${encodeURIComponent(alcaldia)}%0A%0A*Solicito registrarme como comprador mayorista*`;
+            const url = `https://wa.me/525655333139?text=${mensaje}`;
+            mostrarToastWhatsapp();
+            setTimeout(() => { window.open(url, '_blank'); cerrarContacto(); this.reset(); }, 800);
+        });
+        
+        window.onclick = function(event) { if(event.target.classList && event.target.classList.contains('inkspire-modal')) { event.target.style.display='none'; document.body.style.overflow='auto'; } };
+        document.addEventListener('keydown', function(e) { if(e.key==='Escape') { document.querySelectorAll('.inkspire-modal').forEach(m=>m.style.display='none'); document.body.style.overflow='auto'; } });
+        
+        const searchInput = document.getElementById('searchInput');
+        const clearBtn = document.getElementById('clearSearchBtn');
+        if(searchInput) {
+            searchInput.addEventListener('input', filtrarProductos);
+            clearBtn.addEventListener('click', () => {
+                searchInput.value = '';
+                filtrarProductos();
+            });
+        }
+
+        renderProductosMayoreo();
+        renderProductosMenudeo();
+    </script>
+</body>
+</html>
